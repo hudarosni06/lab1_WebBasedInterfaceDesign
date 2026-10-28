@@ -1,2 +1,2 @@
-# lab1_WebBasedInterfaceDesign
+# WebBasedInterfaceDesign
 HUDA BINTI ROSNI S79649
