@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile Page</title>
+</head>
+<body>
+
+    <!-- Header Sectoin -->>
+    <header>
+        <h1>Personal Profile Page</h1>
+    </header>
+
+    <!-- Navigation Section -->>
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#about">About</a>
+        <a href="#form">Form</a>
+    </nav>
+
+    <!-- Main Content Section -->>
+    <section id="profile">
+        <h2>Personal Information</h2>
+        <!-- tables with at least 3 rows and 3 columns -->>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Nur Zulfa</th>
+                    <th>24</th>
+                    <th>Softwawre Engineer</th>
+                </tr>
+                <tr>
+                    <th>Afiqah Hanisah</th>
+                    <th>28</th>
+                    <th>Data Analayst</th>
+                </tr>
+                <tr>
+                    <th>Muhammad Syamim</th>
+                    <th>33</th>
+                    <th>UX Designer</th>
+                </tr>
+                <tr>
+                    <th>Alyani Mawaddah</th>
+                    <th>40</th>
+                    <th>Fullstack Developer</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Article Inside Section -->>
+        <article id="about">
+            <h2>About Me</h2>
+            <p>This is a personal profile page displaying user details and an interactive form.</p>
+        </article>
+    </section>
+
+    <!-- Form Section -->>
+    <section id="form">
+        <h2>User Registration Form</h2>
+        <form action="submit_form.php" method="post">
+
+            <!-- Text Inputs -->>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            
+            <!-- Radio Buttons -->>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male:</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female:</label><br><br>
+
+            <!-- Checkboxes -->>
+            <label for="hobby">Select your hobbies:</label><br>
+            <input type="checkbox" id="hobby1" name="hobby1" value="Reading">
+            <label for="hobby1">Reading:</label><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Gaming">
+            <label for="hobby2">Gaming:</label><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Coding">
+            <label for="hobby3">Coding:</label><br>
+
+            <!-- Submit Button -->>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer Section -->>
+    <footer>
+        <p>Copyright &copy; 2026 My Web Page</p>
+    </footer>
+</body>
+</html>

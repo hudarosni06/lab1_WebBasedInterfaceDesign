@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programming Workshop 2026</title>
+</head>
+<body>
+
+    <!-- Header Section -->>
+    <header>
+        <h1>Programming Workshop 2026</h1>
+        <p>Empowering Students with Practical Web Development</p>
+    </header>
+
+    <!-- Navigation Bar -->>
+    <nav>
+        <a href="#about">About the Event</a>
+        <a href="#schedule">Event Schedule</a>
+        <a href="#register">Registration</a>
+    </nav>
+
+    <!-- Ssection 1: About the Event -->>
+    <section id="about">
+        <h2>About the Event</h2>
+
+        <!-- Speaker 1 / Activity 1 -->>
+        <article>
+            <h3>Keynote Speaker: Dr. Huda Rosni</h3>
+            <p>Dr. Huda Rosni is a senior web architect with over 15 years of industry experience specializing in front-end development and accessibility.</p>
+        </article>
+
+        <!-- Speaker 2 / Activity 2 -->>
+        <article>
+            <h3>Hands-on Coding!</h3>
+            <p>An interactive, guided session where students will construct accessible semantic web pages from scratch.</p>
+        </article>
+    </section>
+
+    <!-- Section 2:Event Schedule Table -->>
+    <section id="schedule">
+        <h2> Event Schedule</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venue</th>
+                    <th>Person in Charge</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>8:00 AM - 9:00 AM</td>
+                    <td>Participant Registration</td>
+                    <td>BYOD1</td>
+                    <td>Student Committee</td>
+                </tr>
+
+                <tr>
+                    <td>9:00 AM - 10:30 AM</td>
+                    <td>Keynote: Modern HTML5 Standards </td>
+                    <!-- Using rowspan for consecutive sessions in the same venue -->
+                    <td rowspan="2">Dewan Syed Jalaluddin</td>
+                    <td>Dr. Huda Rosni</td>
+                </tr>
+
+                <tr>
+                    <td>10:30 AM - 12:00 PM</td>
+                    <td>Hands-on Lab 1</td>
+                    <td>Prof. Afiqah Hanisah</td>
+                </tr>
+
+                <tr>
+                    <td>12:00 PM - 02:00 PM</td>
+                    <!-- Using colspan to span Activity, Venue, and Person in Charge -->
+                    <td colspan="3">Lunch Break</td>
+                </tr>
+
+                <tr>
+                    <td>02:00 PM - 04:00 PM</td>
+                    <td>Hands-on Lab 2</td>
+                    <td>Makmal Pengaturcaraan 1</td>
+                    <td>Tech Crew</td>
+                </tr>
+
+                <tr>
+                    <td>04:00 PM - 05:00 PM</td>
+                    <td>Closing & Certificate Presentation</td>
+                    <td>Dewan Syed Jalaluddin</td>
+                    <td>Event Chair</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 3: Registration Form -->>\
+    <section id="register">
+        <h2>Registration Form</h2>
+
+        <form action="register.html" method="post">
+            
+            <!-- Text Inputs -->
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="matric">Matric Number:</label><br>
+            <input type="text" id="matric" name="matric"><br><br>
+
+            <label for="email">E-mail Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!-- Radio Buttons for Year of Study -->
+            <label>Year of Study:</label><br>
+            <input type="radio" id="year1" name="year" value="Year 1">
+            <label for="year1">Year 1</label><br>
+            <input type="radio" id="year2" name="year" value="Year 2">
+            <label for="year2">Year 2</label><br>
+            <input type="radio" id="year3" name="year" value="Year 3">
+            <label for="year3">Year 3</label><br>
+            <input type="radio" id="year4" name="year" value="Year 4">
+            <label for="year4">Year 4</label><br><br>
+
+            <!-- Checkboxes for Workshop Sessions -->
+            <label>Select Sessions to Join:</label><br>
+            <input type="checkbox" id="session1" name="session" value="Keynote">
+            <label for="session1">Keynote Session</label><br>
+            <input type="checkbox" id="session2" name="session" value="Lab1">
+            <label for="session2">Hands-on Lab 1</label><br>
+            <input type="checkbox" id="session3" name="session" value="Lab2">
+            <label for="session3">Hands-on Lab 2</label><br><br>
+
+            <!-- Drop-down List for Programme / Faculty -->
+            <label for="programme">Programme / Faculty:</label><br>
+            <select id="programme" name="programme">
+                <option value="mc">Mobile Computing</option>
+                <option value="se">Software Engineering</option>
+                <option value="im">Informatic Maritim</option>
+                <option value="it">Information Technology</option>
+            </select><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+
+        </form>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>Organised by Faculty of Computing &copy; 2026. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
